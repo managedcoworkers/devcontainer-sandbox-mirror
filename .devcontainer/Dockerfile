@@ -34,6 +34,12 @@ RUN apt-get update && apt-get install -y \
     redis-tools \
     gcc \
     g++ \
+    htop \
+    nload \
+    iotop \
+    sysstat \
+    tree \
+    watchman \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Rust via rustup
