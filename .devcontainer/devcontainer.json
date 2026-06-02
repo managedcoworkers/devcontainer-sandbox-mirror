@@ -1,0 +1,16 @@
+{
+	"name": "Cloud Sandbox Mirror",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"golang.go",
+				"rust-lang.rust-analyzer"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
